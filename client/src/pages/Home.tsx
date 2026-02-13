@@ -458,7 +458,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src="/logo-gsalute.png" alt="GSaluteCare Logo" className="h-8 w-auto" />
+                <img src="/logo-gsalute.png" alt="GSaluteCare Logo" className="h-8 w-auto filter brightness-200" />
                 <span className="font-bold text-lg">Care</span>
               </div>
               <p className="text-blue-100 text-sm">
