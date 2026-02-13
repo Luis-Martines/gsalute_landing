@@ -120,7 +120,8 @@ export default function Home() {
                 <Button onClick={() => openFormModal("")} size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg">
                   ASSINAR AGORA
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                <Button onClick={() => window.open('https://wa.me/5511944603133', '_blank')} size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                  <MessageCircle className="w-5 h-5 mr-2" />
                   Fale com Especialista
                 </Button>
               </div>
@@ -130,11 +131,16 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="relative">
-              <img 
-                src="https://private-us-east-1.manuscdn.com/sessionFile/59ghWA9KFmQHifUmrUwHhY/sandbox/QBQkVc6d7HYRrmebiX2Ek2-img-1_1770925941000_na1fn_aGVyby10ZWxlbWVkaWNpbmE.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNTlnaFdBOUtGbVFIaWZVbXJVd0hoWS9zYW5kYm94L1FCUWtWYzZkN0hZUnJtZWJpWDJFazItaW1nLTFfMTc3MDkyNTk0MTAwMF9uYTFmbl9hR1Z5YnkxMFpXeGxiV1ZrYVdOcGJtRS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Tb6sEoVpKRrKZNa4-67vnGMVAKy3XqotZ92DoGbzKg2WDCm9MoPiCM~G2UbCt9AJ2HkT6KgwT899ajSl7vQozxvHlpc5XTvO8swzWmgwc3qE3iqvyaUTYybK3LEfNNF5cwl4mJE5lCeVJVeZQHZYA83Q0vlFKz~t3QPor3YkBovseV1vC-sYU8sZh5K4r0at2k6rckgucCeB5jC8vhKkxXS6aMkQ71vxtkFVAfyibc3HFMxULUGuq3DofgZoeBOIK7p9dAt66bvZf3uD1A-FcmeWA1iE1JMxCOigRSuaSd0WKLpJOBemFrZekM-tu6~PKbQvKyDKGXBoD~JXXdMQoA__"
-                alt="Profissional de saúde"
-                className="w-full h-auto rounded-2xl shadow-2xl"
+            <div className="relative w-full aspect-video rounded-2xl shadow-2xl overflow-hidden">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/T3hvA2YB8RU?autoplay=1&mute=1"
+                title="GSaluteCare - Telemedicina 24h"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="rounded-2xl"
               />
             </div>
           </div>
@@ -385,7 +391,7 @@ export default function Home() {
             <Button onClick={() => openFormModal("")} size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg">
               ASSINAR AGORA
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button onClick={() => window.open('https://wa.me/5511944603133', '_blank')} size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
               <MessageCircle className="w-5 h-5 mr-2" />
               Fale com Especialista
             </Button>
