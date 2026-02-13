@@ -16,10 +16,8 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
         <div className="container py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Heart className="w-6 h-6 text-white" />
-            </div>
-            <span className="font-bold text-xl text-primary">GSaluteCare</span>
+            <img src="/logo-gsalute.png" alt="GSaluteCare Logo" className="h-10 w-auto" />
+            <span className="font-bold text-xl text-primary">Care</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#planos" className="text-foreground hover:text-primary transition">Planos</a>
@@ -460,8 +458,8 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Heart className="w-6 h-6" />
-                <span className="font-bold text-lg">GSaluteCare</span>
+                <img src="/logo-gsalute.png" alt="GSaluteCare Logo" className="h-8 w-auto" />
+                <span className="font-bold text-lg">Care</span>
               </div>
               <p className="text-blue-100 text-sm">
                 Telemedicina 24h com cuidado humanizado e tecnologia integrada.
