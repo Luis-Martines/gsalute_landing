@@ -17,7 +17,6 @@ export default function Home() {
         <div className="container py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src="/logo-gsalute.png" alt="GSaluteCare Logo" className="h-10 w-auto" />
-            <span className="font-bold text-xl text-primary">Care</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#planos" className="text-foreground hover:text-primary transition">Planos</a>
@@ -459,7 +458,6 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <img src="/logo-gsalute.png" alt="GSaluteCare Logo" className="h-8 w-auto filter brightness-200" />
-                <span className="font-bold text-lg">Care</span>
               </div>
               <p className="text-blue-100 text-sm">
                 Telemedicina 24h com cuidado humanizado e tecnologia integrada.
